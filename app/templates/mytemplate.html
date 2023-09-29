@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя HTML страница</title>
+</head>
+<body>
+    <h1>Пример HTML страницы</h1>
+    <ul>
+        {% for model in models %}
+            <li>{{ model.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
